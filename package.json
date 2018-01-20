@@ -1,0 +1,9 @@
+{
+  "name": "@device.farm/si-application-events",
+  "version": "1.0.0",
+  "silicon": {
+    "sources": [
+      "application-events.cpp"
+    ]
+  }
+}
