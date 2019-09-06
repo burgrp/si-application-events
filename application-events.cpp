@@ -9,7 +9,7 @@ namespace applicationEvents {
 		int eventId;
 		int scheduled;
 		EventHandler* nextHandler;
-		virtual void onEvent();
+		virtual void onEvent() = 0;
 
 		void handle(int eventId) {
 			this->eventId = eventId;
